@@ -3,8 +3,6 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=windows-1252">
     <title>Inicio</title>
-    <meta name="description" content="website description">
-    <meta name="keywords" content="website keywords, website keywords">
     <link rel="stylesheet" type="text/css" href="style/style.css">
   </head>
   <body>
@@ -12,16 +10,16 @@
       <div id="header">
         <div id="logo">
           <div id="logo_text">
-            <h1>E-Bikes</h1>
+            <h1>E-<span class="logo_colour">Bikes</span></h1>
             <h2>Transporte del futuro</h2>
           </div>
         </div>
         <div id="menubar">
           <ul id="menu">
             <li class="selected"><a href="index.html">Inicio</a></li>
-            <li><a href="examples.html">Examples</a></li>
-            <li><a href="page.html">A Page</a></li>
-            <li><a href="another_page.html">Another Page</a></li>
+            <li><a href="puntoPrestamo.html">Puntos de Prestamo</a></li>
+            <li><a href="page.html">Estaciones de Carga</a></li>
+            <li><a href="another_page.html">Como Funcionan</a></li>
             <li><a href="contact.html">Contact Us</a></li>
           </ul>
         </div>
@@ -29,32 +27,15 @@
       <div id="content_header"></div>
       <div id="site_content">
         <div class="sidebar">
-          <!-- insert your sidebar items here -->
-          <h3>Latest News</h3>
-          <h5>January 1st, 2009</h5>
-          <p>2010 sees the redesign of our website. Take a look around and let
-            us know what you think.<br>
-            <a href="#">Read more</a></p>
-          <h5>January 1st, 2010</h5>
-          <p>2010 sees the redesign of our website. Take a look around and let
-            us know what you think.<br>
-            <a href="#">Read more</a></p>
-          <h3>Useful Links</h3>
-          <ul>
-            <li><a href="#">link 1</a></li>
-            <li><a href="#">link 2</a></li>
-            <li><a href="#">link 3</a></li>
-            <li><a href="#">link 4</a></li>
-          </ul>
-          <h3>Search</h3>
-          <form method="post" action="#" id="search_form">
-            <p> <input class="search" name="search_field" value="Enter keywords....."
-
-                type="text"> <input name="search" style="border: 0; margin: 0 0 -9px 5px;"
-
-                src="style/search.png" alt="Search" title="Search" type="image">
-            </p>
-          </form>
+          <h3>Videos Interesantes</h3>
+          <h5>15 de Agosto de 2018</h5>
+          <iframe width="200" src="https://www.youtube.com/embed/HEH70EyWje4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <p>Bicicletas eléctricas en Bogotá: aprenda cómo y dónde podrá usarlas.<br>
+            <a href="https://noticias.caracoltv.com/bogota/bicicletas-electricas-en-bogota-aprenda-como-y-donde-podra-usarlas-ie11269">Leer Mas</a></p>
+          <h5>31 de Marzo de 2018</h5>
+          <iframe width="200" src="https://www.youtube.com/embed/Mj_Up3D_6lU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <p>Las mejores bicicletas ele?ctricas que puedes comprar ahora mismo.<br>
+            <a href="https://computerhoy.com/listas/life/mejores-bicicletas-electricas-que-puedes-comprar-ahora-mismo-77203">Leer mas</a></p>
         </div>
         <div id="content">
           <h3>INTRODUCCIóN E-BIKES.</h3>
@@ -73,19 +54,32 @@
             E-Bikes las cuales son bicicletas con pedaleo asistido, las cuales
             permiten que viajar por la ciudad sea mas facil.<br>
           </p>
+          <h2>
+            Definicion
+          </h2>
+          <p>
+            El término bicicleta asistida se refiere a una bicicleta equipada con
+            un pequeño motor y batería donde los pilotos siempre tienen que pedalear,
+            pero que se puede encender la asistencia eléctrica, si el usuario
+            lo desea. La asistencia se corta cuando cesa el pedaleo o si
+            se excede la velocidad de 15 m / h (25 km / h). Estas e-bikes son a menudo
+            conocidos como Pedelecs y son populares en muchos países europeos.<br>
+            En una bicicleta asistida, el motor eléctrico puede ayudar
+            a multiplicar la fuerza del usuario al pedalear, que es una muy útil
+            característica para que los adultos mayores logren sus rutas sin
+            hacer un mayor esfuerzo físico.
+            
+          </p>
+          
+          <img src="images/bicicletaE.png" height="300" width="600" >
         </div>
+               
       </div>
       <div id="content_footer"></div>
       <div id="footer">
-        <p><a href="index.html">Inicio</a> | <a href="examples.html">Puntos de Prestamo</a>
-          | <a href="page.html">Estaciones de carga</a> | <a href="another_page.html">Another
-            Page</a> | <a href="contact.html">Contact Us</a></p>
-        <p>Copyright © shadowplay_1 | <a href="http://validator.w3.org/check?uri=referer">HTML5</a>
-          | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
-          | <a href="http://www.html5webtemplates.co.uk">design from
-            HTML5webtemplates.co.uk</a></p>
+        <p><a href="index.html">Inicio</a> | <a href="puntoPrestamo.html">Puntos de
+            Prestamo</a> | <a href="page.html">Estaciones de carga</a> | <a href="another_page.html">Como Funcionan</a> | <a href="contact.html">Contact Us</a></p>
       </div>
     </div>
-    
   </body>
 </html>
