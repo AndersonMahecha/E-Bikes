@@ -10,7 +10,7 @@
       <div id="header">
         <div id="logo">
           <div id="logo_text">
-           <h1><a href="index.html">E-<span class="logo_colour">Bikes</span></a></h1>
+            <h1><a href="index.html">E-<span class="logo_colour">Bikes</span></a></h1>
             <h2>Transporte del futuro</h2>
           </div>
         </div>
@@ -39,75 +39,37 @@
           <p>2010 sees the redesign of our website. Take a look around and let
             us know what you think.<br>
             <a href="#">Read more</a></p>
-          <h3>Useful Links</h3>
-          <ul>
-            <li><a href="#">link 1</a></li>
-            <li><a href="#">link 2</a></li>
-            <li><a href="#">link 3</a></li>
-            <li><a href="#">link 4</a></li>
-          </ul>
-          <h3>Search</h3>
-          <form method="post" action="#" id="search_form">
-            <p> <input class="search" name="search_field" value="Enter keywords....."
-
-                type="text"> <input name="search" style="border: 0; margin: 0 0 -9px 5px;"
-
-                src="style/search.png" alt="Search" title="Search" type="image">
-            </p>
-          </form>
         </div>
         <div id="content">
           <h1>PUNTOS DE PRESTAMO</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui.</p>
+          			<p>Se encontrara un punto de prestamo de bicicletas no asistidas
+                  a la entrada de la universidad. Para solicitarla debes haber
+                  rellenado anteriormente el formulario y presentar tu carnet al
+                  encargado de el punto.</p>
+                <p>Es importante que verifiques el estado en el cual se te
+                  entregue la bicicleta y reportes cualquier anormalidad al
+                  encargado para evitar asi incomodidades a la hora de
+                  entregarla nuevamente.</p>
+                <p>El prestamo se hara por maaximo 3 dias. Luego de esto tendras
+                  que renovar el prestamo presentando nuevamente tu carnet al
+                  encargado e informando tu deseo de seguir haciendo uso de la
+                  bicicleta.</p>
+                <p>El prestamo se podra renovar hasta un maximo de 3 veces
+                  seguidas; para asi poder permitir a los demas usuarios
+                  utilizarlas.</p>
         </div>
+        	<div id="content">
+          	<img class="aligncenter size-full wp-image-14232 img-responsive" alt="Formulario" src="images/formulario.webp" width="600">
+        	</div>
       </div>
       <div id="content_footer"></div>
       <div id="footer">
-        <p><a href="index.html">Inicio</a> | <a href="puntoPrestamo.html">Puntos de
-            Prestamo</a> | <a href="page.html">Estaciones de carga</a> | <a href="another_page.html">Como Funcionan</a> | <a href="contact.html">Contact Us</a></p>
+        <p><a href="index.html">Inicio</a> | <a href="puntoPrestamo.html">Puntos
+            de Prestamo</a> | <a href="page.html">Estaciones de carga</a> | <a
+
+            href="another_page.html">Como Funcionan</a> | <a href="contact.html">Contact
+            Us</a></p>
       </div>
     </div>
-    
   </body>
 </html>
