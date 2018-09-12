@@ -317,7 +317,20 @@ table tr th, table tr td
   color: #FFF;
   padding: 7px 4px;
   text-align: left;}
-  
+
+input{
+margin: 0;
+}
+ 
+label{
+display: inline-block;
+width: 180px;
+margin-right: 20px;
+}
+input[type="text"]{
+margin-bottom: 5px;
+}
+
 table tr td
 { background: #FFF;
   color: #47433F;

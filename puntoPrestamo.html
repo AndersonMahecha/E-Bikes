@@ -42,29 +42,67 @@
         </div>
         <div id="content">
           <h1>PUNTOS DE PRESTAMO</h1>
-          			<p>Se encontrara un punto de prestamo de bicicletas no asistidas
-                  a la entrada de la universidad. Para solicitarla debes haber
-                  rellenado anteriormente el formulario y presentar tu carnet al
-                  encargado de el punto.</p>
-                <p>Es importante que verifiques el estado en el cual se te
-                  entregue la bicicleta y reportes cualquier anormalidad al
-                  encargado para evitar asi incomodidades a la hora de
-                  entregarla nuevamente.</p>
-                <p>El prestamo se hara por maaximo 3 dias. Luego de esto tendras
-                  que renovar el prestamo presentando nuevamente tu carnet al
-                  encargado e informando tu deseo de seguir haciendo uso de la
-                  bicicleta.</p>
-                <p>El prestamo se podra renovar hasta un maximo de 3 veces
-                  seguidas; para asi poder permitir a los demas usuarios
-                  utilizarlas.</p>
+          <p>Se encontrara un punto de prestamo de bicicletas no asistidas a la
+            entrada de la universidad. Para solicitarla debes haber rellenado
+            anteriormente el formulario y presentar tu carnet al encargado de el
+            punto.</p>
+          <p>Es importante que verifiques el estado en el cual se te entregue la
+            bicicleta y reportes cualquier anormalidad al encargado para evitar
+            asi incomodidades a la hora de entregarla nuevamente.</p>
+          <p>El prestamo se hara por maaximo 3 dias. Luego de esto tendras que
+            renovar el prestamo presentando nuevamente tu carnet al encargado e
+            informando tu deseo de seguir haciendo uso de la bicicleta.</p>
+          <p>El prestamo se podra renovar hasta un maximo de 3 veces seguidas;
+            para asi poder permitir a los demas usuarios utilizarlas.</p>
+          <div>
+            <h1>
+              DATOS PERSONALES
+            </h1>
+            <form action="#">
+              <input type="radio" name="Doc" value="T.I" checked>T.I
+              <input type="radio" name="Doc" value="C.C">C.C
+              <input type="radio" name="Doc" value="Pasaporte">Pasaporte
+              <input type="radio" name="Doc" value="C.E">C.E<br>
+              <label for="doc">Documento</label> <input type="text" id="documento" name="documento"/><br>
+              <label for="nombre">Nombres</label> <input type="text" id="nombre" name="nombre" /><br />
+							<label for="apellido">Apellidos</label> <input type="text" id="apellido" name="apellido" /><br />
+              <label for="fechaN">Fecha de Nacimiento</label>Dia:
+               <input id="fechaN" type="number" name="quantity" min="1" max="31" value="1"> Mes:
+              <select >
+              <option value="Enero">Enero</option>
+              <option value="Febrero">Febrero</option>
+              <option value="Marzo">Marzo</option>
+              <option value="Abril">Abril</option>
+              <option value="Mayo">Mayo</option>
+              <option value="Junio">Junio</option>
+              <option value="Julio">Julio</option>
+              <option value="Agosto">Agosto</option>
+              <option value="Septiembre">Septiembre</option>
+              <option value="Octubre">Octubre</option>
+              <option value="Noviembre">Noviembre</option>
+              <option value="Diciembre">Diciembre</option>
+            	</select> Año: 
+							<input type="number" name="quantity" min="1800" max="2018" value="2018"><br><br>
+              <label for="gender">Genero:</label><input type="radio" name="gender" value="male"> Masculino
+              <input type="radio" name="gender" value="female"> Femenino
+              <input type="radio" name="gender" value="other"> Otro<br>
+              <label for="Direccion">Direccion:</label><input type="text" name="Direccion"/> Estrato:
+              <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+              </select>
+              <label for="telefono">Telefono:</label><input type="text" name="telefono"/><br>
+              <label for="correo">Correo:</label><input type="text" name="correo" value="abcd@correo.com" /><br>
+              <label for="discapa">Esta usted en situacion de discapacidad</label><input type="radio" name="discapa" value="si"/>Si <input type="radio" name="discapa" value="no"/>No<br><br>
+              <input type="submit"/>
+              
+            </form>
         </div>
-        	<div id="content">
-          	<img class="aligncenter size-full wp-image-14232 img-responsive" alt="Formulario" src="images/formulario.webp" width="600">
-            
-            <p>
-              Los datos solicitados son
-            </p>
-        	</div>
+        </div>
       </div>
       <div id="content_footer"></div>
       <div id="footer">
