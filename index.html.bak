@@ -19,8 +19,8 @@
             <li class="selected"><a href="index.html">Inicio</a></li>
             <li><a href="puntoPrestamo.html">Puntos de Prestamo</a></li>
             <li><a href="puntoCarga.html">Estaciones de Carga</a></li>
-            <li><a href="another_page.html">Como Funcionan</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="another_page.html">¿Que es?</a></li>
+            <li><a href="contact.html">Como Funcionan</a></li>
           </ul>
         </div>
       </div>
@@ -78,10 +78,8 @@
       <div id="content_footer"></div>
       <div id="footer">
         <p><a href="index.html">Inicio</a> | <a href="puntoPrestamo.html">Puntos
-            de Prestamo</a> | <a href="page.html">Estaciones de carga</a> | <a
-
-            href="another_page.html">Como Funcionan</a> | <a href="contact.html">Contact
-            Us</a></p>
+            de Prestamo</a> | <a href="puntoCarga.html">Estaciones de carga</a>
+          |  <a href="another_page.html">¿Que es?</a> | <a href="contact.html">Como Funcionan</a></p>
       </div>
     </div>
   </body>
